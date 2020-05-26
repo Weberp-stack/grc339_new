@@ -13,10 +13,26 @@ html {
     scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
 }
-body {
+body {	
+	background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A );
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body:before{
+	content:'';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #21D4FD 75%);
+}
+
+/* body {
     background: #5B6380;
     margin:0;
-    }
+    } */
     
     img {
     display: block;
@@ -34,6 +50,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 100vh;
+    
 }
 
 .inner-hero {
@@ -72,7 +89,7 @@ body {
 
 
 .nav a{
-    background: #657180;
+    background: #3289A8;
     padding: 25px;
     margin: auto;
     display: flex;
@@ -84,7 +101,7 @@ body {
 .nav li {
     display: flex;
     justify-content: center;
-    background: #657180;
+    background: #3289A8;
     
 }
 
@@ -174,7 +191,7 @@ body {
 .columns img {
     min-width: 300px;
     max-width: 600px;
-    
+    border-radius: 10px;
 }
 
 .columns {
@@ -243,13 +260,55 @@ body {
 }
 
 
+/* Courses */
+ 
 
 
+body {
+	margin: 0;
+	font-size: 1.15rem;
+	line-height: 1.4em;
+}
+
+#container {
+	background-color: #FFF;
+	margin: 80px 10%;
+	padding: 60px 80px 80px 80px;
+	border-radius: 20px;
+	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+    background: url("images/internet1.jpg");
+    
+    
+}
 
 
+main,header {
+	box-sizing: border-box;
+     
+}
+
+main {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border-radius: 10px;
+	color: #6b6b6b;
+	margin: 40px 0;
+    
+}
+
+h2 {
+    color: #3289A8;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 2em;
+}
 
 
-
+h1{
+    color: #ffffff;
+}
 
 
 
