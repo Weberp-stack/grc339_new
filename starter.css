@@ -91,7 +91,7 @@ grid-template-rows: repeat(3, 1fr);
         grid-auto-flow: dense;
 justify-items: center;        
 justify-items: center;display: grid;
-grid-template-columns: 1fr\); 
+grid-template-columns: 2fr\); 
 grid-template-rows: repeat(3, 1fr);
    
     }
@@ -212,6 +212,10 @@ img {
 /* Travel */
 .columns h1 {
     color: #3B618C;
+}
+
+.columns p {
+    color: #31383D;
 }
 
 .columns img {
@@ -349,6 +353,17 @@ img {
   position: relative;
   height: 600px;
   background-image: url("images/web.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.third-image {
+  position: relative;
+  height: 600px;
+  background-image: url("images/mag.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
